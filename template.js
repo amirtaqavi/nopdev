@@ -5,7 +5,8 @@ const template = `
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nopdev.ir | طراحی فروشگاه اینترنتی با ناپ کامرس</title>
+  <title>nopdev.ir | طراحی فروشگاه با ناپ کامرس</title>
+  <title>nopdev.ir | طراحی فروشگاه اینترنتی با ناپ کامرس</title>
 
   <!-- SEO Meta Tags -->
   <meta name="description" content="nopdev.ir ارائه‌دهنده خدمات تخصصی طراحی فروشگاه اینترنتی با ناپ‌کامرس. راه‌اندازی، مشاوره و پشتیبانی فروشگاه آنلاین.">
@@ -15,10 +16,9 @@ const template = `
   <!-- Open Graph (برای شبکه‌های اجتماعی) -->
   <meta property="og:title" content="nopdev.ir | طراحی فروشگاه اینترنتی با ناپ کامرس">
   <meta property="og:description" content="خدمات حرفه‌ای طراحی فروشگاه اینترنتی با ناپ‌کامرس. همین حالا فروشگاه آنلاین خود را راه‌اندازی کنید!">
-  <meta property="og:image" content="https://yourdomain.com/path-to-image.jpg">
+  <meta property="og:image" content="https://nopdev.ir/path-to-image.jpg">
   <meta property="og:url" content="https://nopdev.ir">
   <meta property="og:type" content="website">
-  
   <style>
     body {
       margin: 0;
@@ -154,13 +154,13 @@ const template = `
     <section>
       <h2>تماس با ما</h2>
       <p>برای مشاوره و دریافت خدمات، از طریق ایمیل <a href="mailto:info@nopdev.ir">info@nopdev.ir</a> یا شماره تلفن <a href="tel:09334363850">09334363850</a> با ما در ارتباط باشید.</p>
-      <a class="contact-button whatsapp-button" href="https://wa.me/989334363850" target="_blank">
+      <a class="contact-button whatsapp-button" href="https://wa.me/+989334363850" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">چت در واتساپ
       </a>
-      <a class="contact-button telegram-button" href="https://t.me/yourtelegramusername" target="_blank">
+      <a class="contact-button telegram-button" href="https://t.me/amirtaqavi" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram">چت در تلگرام
       </a>
-      <a class="contact-button instagram-button" href="https://instagram.com/yourusername" target="_blank">
+      <a class="contact-button instagram-button" href="https://instagram.com/nopdev.ir" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">چت در اینستاگرام
       </a>
     </section>
@@ -173,4 +173,4 @@ const template = `
 
 `
 
-export default template
+export default template;
