@@ -1,5 +1,6 @@
 name = "nopdev"
 type = "webpack"
+main = "index.js"
 account_id = "59df5d5664a1c9f54b0bdf982131e6de"
 workers_dev = true
 zone_id = "b9fc112df3c3b6a23b444c9b39455c5e"
