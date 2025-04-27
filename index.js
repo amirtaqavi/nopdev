@@ -1,11 +1,9 @@
-import template from './template'
+import template from './template.js';
 
-addEventListener('fetch', event => {
-  event.respondWith(handleRequest(event.request))
-})
-
-async function handleRequest(request) {
-  return new Response(template, {
-    headers: { 'content-type': 'text/html' },
-  })
+export default {
+  async fetch(request, env) {
+    return new Response(template, {
+      headers: { 'content-type': 'text/html' },
+    })
+  }
 }
