@@ -1,4 +1,4 @@
-name = "region-workers-example"
+name = "nopdev"
 type = "webpack"
 account_id = ""
 workers_dev = true
