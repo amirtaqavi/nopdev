@@ -5,7 +5,20 @@ const template = `
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>nopdev.ir | طراحی فروشگاه با ناپ کامرس</title>
+    <title>nopdev.ir | طراحی فروشگاه اینترنتی با ناپ کامرس</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="nopdev.ir ارائه‌دهنده خدمات تخصصی طراحی فروشگاه اینترنتی با ناپ‌کامرس. راه‌اندازی، مشاوره و پشتیبانی فروشگاه آنلاین.">
+  <meta name="keywords" content="nopdev, ناپ کامرس, طراحی فروشگاه اینترنتی, فروشگاه ساز, nopCommerce, سایت فروشگاهی">
+  <meta name="author" content="nopdev.ir">
+
+  <!-- Open Graph (برای شبکه‌های اجتماعی) -->
+  <meta property="og:title" content="nopdev.ir | طراحی فروشگاه اینترنتی با ناپ کامرس">
+  <meta property="og:description" content="خدمات حرفه‌ای طراحی فروشگاه اینترنتی با ناپ‌کامرس. همین حالا فروشگاه آنلاین خود را راه‌اندازی کنید!">
+  <meta property="og:image" content="https://yourdomain.com/path-to-image.jpg">
+  <meta property="og:url" content="https://nopdev.ir">
+  <meta property="og:type" content="website">
+  
   <style>
     body {
       margin: 0;
